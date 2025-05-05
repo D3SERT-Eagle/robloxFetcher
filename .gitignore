@@ -1,0 +1,62 @@
+# === Node.js (backend + frontend) ===
+node_modules/
+package-lock.json
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# === Logs ===
+logs/
+*.log
+*.pid
+*.seed
+*.pid.lock
+
+# === Environment Variables ===
+.env
+.env.*.local
+
+# === Build Output ===
+dist/
+build/
+
+# === IDEs ===
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+
+# === OS Files ===
+.DS_Store
+Thumbs.db
+
+# === Docker ===
+**/Dockerfile
+**/docker-compose.override.yml
+*.local.yml
+
+# === React (frontend) ===
+frontend/.cache/
+frontend/public/static/
+frontend/.next/
+frontend/.parcel-cache/
+
+# === NestJS (backend) ===
+backend/dist/
+backend/test-results/
+backend/coverage/
+
+# === Misc ===
+*.tgz
+*.log
+*.lock
+*.bak
+*.tmp
+*.tsbuildinfo
+
+# === Nginx or container cache (if used later) ===
+#nginx.conf
+docker-compose.override.yml
